@@ -33,3 +33,9 @@ To run the component tests:
 ```shell
 npm run test-ct
 ```
+
+# Implementation
+
+The general idea is that the standard "Hello World" example has been broken up. Rather than a single component, I have multiple components. The original example has the page title as part of the page. I now have that as a distinct component called `Title`.
+
+This means the `App` component test checks for the actual title, by mounting the full component app, but the `Title` component test only checks if a message property can be passed. This requires only mounting the `Title` component.

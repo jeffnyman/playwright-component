@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue"
+import Title from "./components/Title.vue"
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import HelloWorld from "./components/HelloWorld.vue"
       <img src="./assets/playwright-logo.svg" class="logo playwright" alt="Playwright logo" />
     </a>
   </div>
-  <HelloWorld msg="Jeff's Vite + Vue + Playwright" />
+  <Title msg="Jeff's Vite + Vue + Playwright"></Title>
+  <HelloWorld></HelloWorld>
 </template>
 
 <style scoped>
