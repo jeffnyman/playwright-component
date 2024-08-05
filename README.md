@@ -39,3 +39,5 @@ npm run test-ct
 The general idea is that the standard "Hello World" example has been broken up. Rather than a single component, I have multiple components. The original example has the page title as part of the page. I now have that as a distinct component called `Title`.
 
 This means the `App` component test checks for the actual title, by mounting the full component app, but the `Title` component test only checks if a message property can be passed. This requires only mounting the `Title` component.
+
+I also refactored the counter into its own component called `Count`. The tests for this check for the state of the counter after it is mounted and clicked.

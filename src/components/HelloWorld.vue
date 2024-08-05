@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import { ref } from "vue"
-
-const count = ref(0)
+import Count from "./Count.vue"
 </script>
 
 <template>
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+     <Count></Count>
     <p>
       <img src="../assets/up-arrow.png" class="arrow" />
     </p>
