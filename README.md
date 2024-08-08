@@ -1,5 +1,7 @@
 # Learning Playwright (Component)
 
+The focus of this is example is on showing component testing with Vue. To keep this as reproducible for anyone as possible, I took the standard Vue template project and broke it up into components. See the Implementation section below.
+
 ## Prerequisites
 
 Make sure you have [Node.js](https://nodejs.org/en). The LTS version should be fine. You will also need the `npm` package manager (which comes with Node.js) or `yarn`. A development environment or IDE with TypeScript/JavaScript support will help. [Visual Studio Code](https://code.visualstudio.com/) is a good choice.
